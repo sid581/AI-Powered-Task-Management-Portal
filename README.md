@@ -56,7 +56,7 @@ The application allows users to create, update, delete and manage their tasks. I
 
 ## Project Structure
 
-
+```
 task-management-portal/
 │
 ├── task-management-backend/
@@ -74,12 +74,12 @@ task-management-portal/
 │
 └── README.md
 
--------------------------------------------------------------
+```
 ## Application Flow
 
 The application works in the following way:
 
-
+```
 React Frontend
        |
        v
@@ -100,14 +100,15 @@ Repository Layer
        v
    MySQL Database
  
----------------------------------------------------------
 
+```
 ## Authentication
 
 The application uses JWT authentication.
 
 The login flow is:
 
+```
 User Login
     |
     v
@@ -125,7 +126,9 @@ React stores token
     v
 Token sent with API requests
 
---------------------------------------------------------
+
+
+```
 
 ## AI Feature
 
@@ -133,7 +136,7 @@ The application uses Google Gemini AI to help users create tasks faster.
 
 The user enters a task title and clicks **Generate with AI**.
 
-
+```
 Task Title
     |
     v
@@ -153,7 +156,7 @@ Estimated Hours
     v
 Task form is automatically filled
 
------------------------------------------------------------
+```
 
 ## API Endpoints
 
@@ -175,7 +178,7 @@ Task form is automatically filled
 
 | POST | `/api/ai/generate-task` | Generate task description, priority and estimated hours using Gemini AI |
 
-------------------------------------------------------------
+
 
 ## AI Integration
 
