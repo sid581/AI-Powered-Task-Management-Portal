@@ -200,6 +200,6 @@ The frontend automatically fills the task form with the generated values. The us
 
 ## Links
 
-- **GitHub Repository:** https://github.com/yourusername/task-management-portal
+- **GitHub Repository:** https://github.com/sid581/AI-Powered-Task-Management-Portal
 - **Demo Video:** https://drive.google.com/file/d/1DJU7bmg2vWvj-pdrylg1PzU8z_olZp3u/view?usp=sharing
 
