@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
-import DashBoard from "./Pages/DashBoard";
+import DashBoard from "./Pages/Dashboard";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import CreateTask from "./Pages/CreateTask";
 import EditTask from "./Pages/EditTask";
