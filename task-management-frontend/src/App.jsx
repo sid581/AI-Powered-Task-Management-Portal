@@ -7,6 +7,7 @@ import ProtectedRoute from "./Components/ProtectedRoute";
 import CreateTask from "./Pages/CreateTask";
 import EditTask from "./Pages/EditTask";
 
+
 const App = () => {
   return (
     <BrowserRouter>
