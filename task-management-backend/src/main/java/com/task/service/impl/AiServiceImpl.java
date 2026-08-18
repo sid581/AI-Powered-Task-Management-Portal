@@ -62,6 +62,7 @@ public class AiServiceImpl implements AiService {
 			Map<String, Object> requestBody = Map.of("contents",
 					new Object[] { Map.of("parts", new Object[] { Map.of("text", prompt) }) });
 
+			 
 			//sending request to AI
 			String response = restClient.post().uri(apiUrl).header("x-goog-api-key", apiKey)
 					.contentType(MediaType.APPLICATION_JSON).body(requestBody).retrieve().body(String.class);
