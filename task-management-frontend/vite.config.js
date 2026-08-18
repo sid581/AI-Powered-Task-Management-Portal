@@ -7,4 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  preview: {
+    allowedHosts: ['ai-powered-task-management-portal-production-ca0e.up.railway.app']
+  }
 })
